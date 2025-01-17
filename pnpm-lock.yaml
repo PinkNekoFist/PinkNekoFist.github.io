@@ -12,8 +12,8 @@ importers:
         specifier: ^5.5.3
         version: 5.19.0
       '@waline/client':
-        specifier: ^3.3.2
-        version: 3.4.3
+        specifier: ^3.5.1
+        version: 3.5.1
       algoliasearch:
         specifier: 5.18.0
         version: 5.18.0
@@ -492,8 +492,8 @@ packages:
     resolution: {integrity: sha512-S6pgUUfv+gcXU3hiW3PNUwiUvPy7bXmmLB/bwdU3hN5YVT5Q7CxyVSLA3oJkrNO5lcisKK1GBPv0H2W1uB0eGA==}
     engines: {node: '>=18'}
 
-  '@waline/client@3.4.3':
-    resolution: {integrity: sha512-IlMw6QaWSAXj7U/y1MEWy5glBr96YQvf5Fwhj1/umw7HDU8VnmB7ViTzoocw0dGGr98C1P0SMYAronCV7Tp2fw==}
+  '@waline/client@3.5.1':
+    resolution: {integrity: sha512-vwXPC5F1RA+Tcx+oNXW9HQ5cgPpzC19OriiO6yVDHXNb29Rs4/vSws/TD6AJQa1RgYKikFP05OLEtsHmNnTUJA==}
     engines: {node: '>=18'}
 
   a-sync-waterfall@1.0.1:
@@ -2048,7 +2048,7 @@ snapshots:
 
   '@waline/api@1.0.0-alpha.8': {}
 
-  '@waline/client@3.4.3':
+  '@waline/client@3.5.1':
     dependencies:
       '@vueuse/core': 12.4.0
       '@waline/api': 1.0.0-alpha.8
@@ -2605,7 +2605,7 @@ snapshots:
   hexo-theme-shokax@0.4.17(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0):
     dependencies:
       '@algolia/client-search': 5.19.0
-      '@waline/client': 3.4.3
+      '@waline/client': 3.5.1
       algoliasearch: 5.18.0
       esbuild: 0.24.2
       hexo: 7.3.0(chokidar@3.6.0)
