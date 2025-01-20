@@ -81,8 +81,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       katex:
-        specifier: ^0.16.11
-        version: 0.16.20
+        specifier: ^0.16.21
+        version: 0.16.21
       mouse-firework:
         specifier: ^0.0.6
         version: 0.0.6
@@ -1121,8 +1121,8 @@ packages:
   jstransformer@1.0.0:
     resolution: {integrity: sha512-C9YK3Rf8q6VAPDCCU9fnqo3mAfOH6vUGnMcP4AQAYIEpWtfGLpwOTmZ+igtdK5y+VvI2n3CyYSzy4Qh34eq24A==}
 
-  katex@0.16.20:
-    resolution: {integrity: sha512-jjuLaMGD/7P8jUTpdKhA9IoqnH+yMFB3sdAFtq5QdAqeP2PjiSbnC3EaguKPNtv6dXXanHxp1ckwvF4a86LBig==}
+  katex@0.16.21:
+    resolution: {integrity: sha512-XvqR7FgOHtWupfMiigNzmh+MgUVmDGU2kXZm899ZkPfcuoPuFxyHmXsgATDpFZDAXCI8tvinaVcDo8PIIJSo4A==}
     hasBin: true
 
   loose-envify@1.4.0:
@@ -2617,7 +2617,7 @@ snapshots:
       hexo-util: 3.3.0
       instantsearch.js: 4.75.7(algoliasearch@5.18.0)
       js-yaml: 4.1.0
-      katex: 0.16.20
+      katex: 0.16.21
       mouse-firework: 0.0.6
       quicklink: 2.3.0(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
       theme-shokax-anime: 0.0.7
@@ -2858,7 +2858,7 @@ snapshots:
       is-promise: 2.2.2
       promise: 7.3.1
 
-  katex@0.16.20:
+  katex@0.16.21:
     dependencies:
       commander: 8.3.0
 
