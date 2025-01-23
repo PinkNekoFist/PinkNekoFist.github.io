@@ -69,8 +69,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       hexo-theme-shokax:
-        specifier: ^0.4.17
-        version: 0.4.17(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
+        specifier: ^0.4.18
+        version: 0.4.18(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
       hexo-util:
         specifier: ^3.3.0
         version: 3.3.0
@@ -967,8 +967,8 @@ packages:
   hexo-theme-landscape@1.0.0:
     resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
 
-  hexo-theme-shokax@0.4.17:
-    resolution: {integrity: sha512-86/Lk8q5K+BkrrErxs5NF4ZEy2uQp8flfUfawU9uv59UvqURZeI4MAyU0fs9uJE9uZjwa+KaJ08HewYcZLEB+A==}
+  hexo-theme-shokax@0.4.18:
+    resolution: {integrity: sha512-rphfrJpkN4aKdoy4HI9FM13Gcyuun8RazVZcLIR6Y/DFEGSigGXh2crG5+9IEpcD5njZ5ex/uCVZ7n5E4zQkoQ==}
     engines: {node: '>=18.0.0'}
 
   hexo-util@2.7.0:
@@ -2602,7 +2602,7 @@ snapshots:
 
   hexo-theme-landscape@1.0.0: {}
 
-  hexo-theme-shokax@0.4.17(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0):
+  hexo-theme-shokax@0.4.18(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0):
     dependencies:
       '@algolia/client-search': 5.19.0
       '@waline/client': 3.4.3
