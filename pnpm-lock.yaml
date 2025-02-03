@@ -84,8 +84,8 @@ importers:
         specifier: ^0.16.11
         version: 0.16.20
       mouse-firework:
-        specifier: ^0.0.6
-        version: 0.0.6
+        specifier: ^0.1.0
+        version: 0.1.0
       quicklink:
         specifier: ^2.3.0
         version: 2.3.0(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
@@ -1220,6 +1220,9 @@ packages:
   mouse-firework@0.0.6:
     resolution: {integrity: sha512-FAZLwChewQjGqUSj2bdHZc45VflpuLYJR3Ntsxpvl+40+0hYG+0p+lz1KqNi7/4ciReTbOveuoyOS8LStovHbA==}
 
+  mouse-firework@0.1.0:
+    resolution: {integrity: sha512-eCulgWm1tSsZlCCZnXeZjWQoJmoBRhIhTkDlE80u79hHVkju8RffTKNZzLOVQQqSyT2IAP6okyPlw5y6XdEfsw==}
+
   ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
 
@@ -1536,6 +1539,9 @@ packages:
 
   theme-shokax-anime@0.0.7:
     resolution: {integrity: sha512-obynM1nE41swg7+/4yYG4FIyj8chY2O5NSrVyICsrvEr2Q64RwufHVs4VDHxg8/2uZ2u+5uxQw8MaSLQXKdgOQ==}
+
+  theme-shokax-anime@0.0.8:
+    resolution: {integrity: sha512-RzpqYWK3ZYjeP+Z/fXetz1YgEZnuQWd0+4H1/76xbATWrjMqq9Gqzq/g+mE5grmDiRxRgWUJJQgcSrIXPSbxbg==}
 
   theme-shokax-pjax@0.0.3:
     resolution: {integrity: sha512-de6y9QSuiJSSsfST04EG4m1sCYGDi+QN+z7R0w+lhGosrPagERv4vM/2k310DdWfMavsJtR2Y+tCGZtsK5bLWQ==}
@@ -2944,6 +2950,10 @@ snapshots:
     dependencies:
       theme-shokax-anime: 0.0.7
 
+  mouse-firework@0.1.0:
+    dependencies:
+      theme-shokax-anime: 0.0.8
+
   ms@2.0.0: {}
 
   ms@2.1.3: {}
@@ -3271,6 +3281,8 @@ snapshots:
   text-table@0.2.0: {}
 
   theme-shokax-anime@0.0.7: {}
+
+  theme-shokax-anime@0.0.8: {}
 
   theme-shokax-pjax@0.0.3: {}
 
