@@ -12,8 +12,8 @@ importers:
         specifier: ^5.5.3
         version: 5.19.0
       '@waline/client':
-        specifier: ^3.3.2
-        version: 3.4.3
+        specifier: ^3.5.2
+        version: 3.5.2
       algoliasearch:
         specifier: 5.18.0
         version: 5.18.0
@@ -235,8 +235,8 @@ packages:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.26.5':
-    resolution: {integrity: sha512-SRJ4jYmXRqV1/Xc+TIVG84WjHBXKlxO9sHQnA2Pf12QQEAp1LOh6kDzNHXcUnbH1QI0FDoPPVOt+vyUDucxpaw==}
+  '@babel/parser@7.26.9':
+    resolution: {integrity: sha512-81NWa1njQblgZbQHxWHpxxCzNsa3ZwvFqpUg7P+NNUU6f3UU2jBEg4OlF/J6rl8+PQGh1q6/zWScd001YwcA5A==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -246,6 +246,10 @@ packages:
 
   '@babel/types@7.26.5':
     resolution: {integrity: sha512-L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.26.9':
+    resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
     engines: {node: '>=6.9.0'}
 
   '@csstools/color-helpers@5.0.1':
@@ -479,21 +483,21 @@ packages:
   '@vue/shared@3.5.13':
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
 
-  '@vueuse/core@12.4.0':
-    resolution: {integrity: sha512-XnjQYcJwCsyXyIafyA6SvyN/OBtfPnjvJmbxNxQjCcyWD198urwm5TYvIUUyAxEAN0K7HJggOgT15cOlWFyLeA==}
+  '@vueuse/core@12.7.0':
+    resolution: {integrity: sha512-jtK5B7YjZXmkGNHjviyGO4s3ZtEhbzSgrbX+s5o+Lr8i2nYqNyHuPVOeTdM1/hZ5Tkxg/KktAuAVDDiHMraMVA==}
 
-  '@vueuse/metadata@12.4.0':
-    resolution: {integrity: sha512-AhPuHs/qtYrKHUlEoNO6zCXufu8OgbR8S/n2oMw1OQuBQJ3+HOLQ+EpvXs+feOlZMa0p8QVvDWNlmcJJY8rW2g==}
+  '@vueuse/metadata@12.7.0':
+    resolution: {integrity: sha512-4VvTH9mrjXqFN5LYa5YfqHVRI6j7R00Vy4995Rw7PQxyCL3z0Lli86iN4UemWqixxEvYfRjG+hF9wL8oLOn+3g==}
 
-  '@vueuse/shared@12.4.0':
-    resolution: {integrity: sha512-9yLgbHVIF12OSCojnjTIoZL1+UA10+O4E1aD6Hpfo/DKVm5o3SZIwz6CupqGy3+IcKI8d6Jnl26EQj/YucnW0Q==}
+  '@vueuse/shared@12.7.0':
+    resolution: {integrity: sha512-coLlUw2HHKsm7rPN6WqHJQr18WymN4wkA/3ThFaJ4v4gWGWAQQGK+MJxLuJTBs4mojQiazlVWAKNJNpUWGRkNw==}
 
-  '@waline/api@1.0.0-alpha.8':
-    resolution: {integrity: sha512-S6pgUUfv+gcXU3hiW3PNUwiUvPy7bXmmLB/bwdU3hN5YVT5Q7CxyVSLA3oJkrNO5lcisKK1GBPv0H2W1uB0eGA==}
+  '@waline/api@1.0.0':
+    resolution: {integrity: sha512-o0lWjt+/oZH1/4q3DJxTf5kdkgNbSmoLRXIiGznW225A6hq9/9IkOO1DiAijIsxGYJS6psFC+58+IzkD1EerBA==}
     engines: {node: '>=18'}
 
-  '@waline/client@3.4.3':
-    resolution: {integrity: sha512-IlMw6QaWSAXj7U/y1MEWy5glBr96YQvf5Fwhj1/umw7HDU8VnmB7ViTzoocw0dGGr98C1P0SMYAronCV7Tp2fw==}
+  '@waline/client@3.5.2':
+    resolution: {integrity: sha512-7WWv+1Jbh9NTb5u5cSGDeXN+Ik0kHJH4LIFvgvnVyO/ZI5jHCUW83/aJ+5+RyZOUtBFnbpQpYt06OHGjdTF+9A==}
     engines: {node: '>=18'}
 
   a-sync-waterfall@1.0.1:
@@ -1153,6 +1157,11 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
+  marked@15.0.7:
+    resolution: {integrity: sha512-dgLIeKGLx5FwziAnsk4ONoGwHwGPJzselimvlVskE9XLN4Orv9u2VA3GWw/lYUqjfA0rUT/6fqKwfZJapP9BEg==}
+    engines: {node: '>= 18'}
+    hasBin: true
+
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
@@ -1315,8 +1324,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  postcss@8.5.0:
-    resolution: {integrity: sha512-27VKOqrYfPncKA2NrFOVhP5MGAfHKLYn/Q0mz9cNQyRAKYi3VNHwYU2qKKqPCqgBmeeJ0uAFB56NumXZ5ZReXg==}
+  postcss@8.5.2:
+    resolution: {integrity: sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact@10.25.4:
@@ -1850,15 +1859,20 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
-  '@babel/parser@7.26.5':
+  '@babel/parser@7.26.9':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.9
 
   '@babel/runtime@7.26.0':
     dependencies:
       regenerator-runtime: 0.14.1
 
   '@babel/types@7.26.5':
+    dependencies:
+      '@babel/helper-string-parser': 7.25.9
+      '@babel/helper-validator-identifier': 7.25.9
+
+  '@babel/types@7.26.9':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
@@ -1977,7 +1991,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.13':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.9
       '@vue/shared': 3.5.13
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -1990,14 +2004,14 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.13':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.9
       '@vue/compiler-core': 3.5.13
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.5.0
+      postcss: 8.5.2
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.13':
@@ -2029,32 +2043,32 @@ snapshots:
 
   '@vue/shared@3.5.13': {}
 
-  '@vueuse/core@12.4.0':
+  '@vueuse/core@12.7.0':
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 12.4.0
-      '@vueuse/shared': 12.4.0
+      '@vueuse/metadata': 12.7.0
+      '@vueuse/shared': 12.7.0
       vue: 3.5.13
     transitivePeerDependencies:
       - typescript
 
-  '@vueuse/metadata@12.4.0': {}
+  '@vueuse/metadata@12.7.0': {}
 
-  '@vueuse/shared@12.4.0':
+  '@vueuse/shared@12.7.0':
     dependencies:
       vue: 3.5.13
     transitivePeerDependencies:
       - typescript
 
-  '@waline/api@1.0.0-alpha.8': {}
+  '@waline/api@1.0.0': {}
 
-  '@waline/client@3.4.3':
+  '@waline/client@3.5.2':
     dependencies:
-      '@vueuse/core': 12.4.0
-      '@waline/api': 1.0.0-alpha.8
+      '@vueuse/core': 12.7.0
+      '@waline/api': 1.0.0
       autosize: 6.0.1
-      marked: 15.0.6
-      marked-highlight: 2.2.1(marked@15.0.6)
+      marked: 15.0.7
+      marked-highlight: 2.2.1(marked@15.0.7)
       recaptcha-v3: 1.11.3
       vue: 3.5.13
     transitivePeerDependencies:
@@ -2135,7 +2149,7 @@ snapshots:
 
   babel-walk@3.0.0-canary-5:
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.9
 
   balanced-match@1.0.2: {}
 
@@ -2247,7 +2261,7 @@ snapshots:
 
   constantinople@4.0.1:
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.9
       '@babel/types': 7.26.5
 
   cross-spawn@7.0.6:
@@ -2605,7 +2619,7 @@ snapshots:
   hexo-theme-shokax@0.4.17(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0):
     dependencies:
       '@algolia/client-search': 5.19.0
-      '@waline/client': 3.4.3
+      '@waline/client': 3.5.2
       algoliasearch: 5.18.0
       esbuild: 0.24.2
       hexo: 7.3.0(chokidar@3.6.0)
@@ -2878,11 +2892,13 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  marked-highlight@2.2.1(marked@15.0.6):
+  marked-highlight@2.2.1(marked@15.0.7):
     dependencies:
-      marked: 15.0.6
+      marked: 15.0.7
 
   marked@15.0.6: {}
+
+  marked@15.0.7: {}
 
   math-intrinsics@1.1.0: {}
 
@@ -3020,7 +3036,7 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  postcss@8.5.0:
+  postcss@8.5.2:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
@@ -3366,7 +3382,7 @@ snapshots:
 
   with@7.0.2:
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.9
       '@babel/types': 7.26.5
       assert-never: 1.4.0
       babel-walk: 3.0.0-canary-5
