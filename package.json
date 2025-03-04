@@ -34,7 +34,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-shokax": "^0.4.17",
     "hexo-util": "^3.3.0",
-    "instantsearch.js": "^4.74.1",
+    "instantsearch.js": "^4.78.0",
     "js-yaml": "^4.1.0",
     "katex": "^0.16.11",
     "mouse-firework": "^0.0.6",
