@@ -99,8 +99,8 @@ importers:
         specifier: ^1.6.39
         version: 1.6.41
       unlazy:
-        specifier: ^0.12.1
-        version: 0.12.1
+        specifier: ^0.12.4
+        version: 0.12.4
 
 packages:
 
@@ -447,8 +447,8 @@ packages:
   '@types/web-bluetooth@0.0.20':
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
 
-  '@unlazy/core@0.12.1':
-    resolution: {integrity: sha512-FTTu09EuvlX2+Rr7Gwl0SI3WXxHmIMmC9BmuzKVic3yulLiB0Qx6m7HYcDtj/aPeE2OoNHeSw5+KfsF50WAU2A==}
+  '@unlazy/core@0.12.4':
+    resolution: {integrity: sha512-0hmw+g06Xmr33bSGnPPlc8Mt4Q1dOHe0IE+bF7KcPbiyTEX4GlsFmAm29uXr/Nv3L3HaB1Wq7Js0ik9mEAJhJA==}
 
   '@vue/compiler-core@3.5.13':
     resolution: {integrity: sha512-oOdAkwqUfW1WqpwSYJce06wvt6HljgY3fGeM9NcVA1HaYOij3mZG9Rkysn0OHuyUAGMbEbARIpsG+LPVlBJ5/Q==}
@@ -1587,8 +1587,8 @@ packages:
   twikoo@1.6.41:
     resolution: {integrity: sha512-Hrp/fvk2N5oqin+9bkFVULstL+YMwQjn/vVL8r5FPIhyRBA0zWAgUri4hhCji4FsXegKR6+ihyMPTXBRENjnnA==}
 
-  unlazy@0.12.1:
-    resolution: {integrity: sha512-NdUAiAzZpqYzwCKFPLcFoWqoodwMH3Ka1ETx38ll92ACJQ/r6XhgCdApFd135paNEKKFstU5fiKvqxxd7dPyqg==}
+  unlazy@0.12.4:
+    resolution: {integrity: sha512-fdx0Fmz2DYuxWkcUWFAUZBMRzN3gsRL9m/t2eE2UI2BoefFUwxLgC0ApYswwgYwZjwBaA1asnvwwYfnx2cEEcw==}
 
   unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
@@ -1973,7 +1973,7 @@ snapshots:
 
   '@types/web-bluetooth@0.0.20': {}
 
-  '@unlazy/core@0.12.1': {}
+  '@unlazy/core@0.12.4': {}
 
   '@vue/compiler-core@3.5.13':
     dependencies:
@@ -2623,7 +2623,7 @@ snapshots:
       theme-shokax-anime: 0.0.7
       theme-shokax-pjax: 0.0.3
       twikoo: 1.6.41
-      unlazy: 0.12.1
+      unlazy: 0.12.4
     transitivePeerDependencies:
       - chalk
       - chokidar
@@ -3310,9 +3310,9 @@ snapshots:
 
   twikoo@1.6.41: {}
 
-  unlazy@0.12.1:
+  unlazy@0.12.4:
     dependencies:
-      '@unlazy/core': 0.12.1
+      '@unlazy/core': 0.12.4
 
   unpipe@1.0.0: {}
 
