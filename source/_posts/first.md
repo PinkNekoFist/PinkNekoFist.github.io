@@ -1,5 +1,6 @@
 ---
 title: 時隔多年的第一篇文章
+cover: images/first-cover.jpg
 ---
 
 ## 序
