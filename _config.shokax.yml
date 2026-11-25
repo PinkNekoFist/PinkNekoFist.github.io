@@ -1,0 +1,23 @@
+# ShokaX 主題設定：只寫要覆蓋的項目，其餘沿用 node_modules/hexo-theme-shokax/_config.yml 的預設值
+alternate: PinkNekoFist # 站點大標題
+
+menu:
+  home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+
+social:
+  github: https://github.com/PinkNekoFist || github || "#191717"
+  email: mailto:vitus.tseng@gmail.com || envelope || "#55acd5"
+
+sidebar:
+  avatar: avatar.jpg # 放到 source/_data/assets/avatar.jpg
+
+widgets:
+  recent_comments: false # 還沒設評論系統
+
+footer:
+  since: 2025
