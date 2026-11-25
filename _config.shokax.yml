@@ -1,5 +1,5 @@
-# ShokaX 主題設定：只寫要覆蓋的項目，其餘沿用 node_modules/hexo-theme-shokax/_config.yml 的預設值
-alternate: PinkNekoFist # 站點大標題
+# ShokaX theme overrides; anything not set here falls back to node_modules/hexo-theme-shokax/_config.yml
+alternate: PinkNekoFist # Site headline
 
 menu:
   home: / || home
@@ -14,10 +14,13 @@ social:
   email: mailto:vitus.tseng@gmail.com || envelope || "#55acd5"
 
 sidebar:
-  avatar: avatar.jpg # 放到 source/_data/assets/avatar.jpg
+  avatar: avatar.jpg # Lives at source/_data/assets/avatar.jpg
 
 widgets:
-  recent_comments: false # 還沒設評論系統
+  recent_comments: false # No comment system configured yet
 
 footer:
   since: 2025
+
+reward:
+  enable: false # Hide the donation button under posts
